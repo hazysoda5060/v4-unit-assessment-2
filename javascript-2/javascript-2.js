@@ -95,7 +95,7 @@ const saleProducts = products.map(el => {
   (Hint: look up the array method 'includes' on MDN)
 */
 
-const blueProducts = products.filter(el => el.color.includes('blue'))
+const blueProducts = saleProducts.filter(el => el.color.includes('blue'))
 
 ////////////////////PROBLEM 4////////////////////
 /*
